@@ -1,0 +1,93 @@
+# ===========================================================================
+# data_classification.yaml — C1: artefacto VIVO.
+#
+# El pipeline LO LEE en cada corrida (src/config.columnas_pii): cualquier
+# columna marcada "Restringido-PII" se cifra con AES-256-GCM antes de llegar
+# a la base. Cambiar una clasificacion aca cambia lo que se cifra — no es un
+# documento muerto.
+#
+# Niveles: Publico | Interno | Confidencial | Restringido-PII
+# ===========================================================================
+
+version: 1
+leyenda:
+  Publico: "Sin impacto si se divulga"
+  Interno: "Uso operativo interno, bajo impacto"
+  Confidencial: "Impacto comercial/legal si se divulga"
+  Restringido-PII: "Dato personal (Ley 1581) — cifrado en reposo + enmascarado"
+
+tablas:
+  core.dim_cliente:
+    columnas:
+      cliente_id:                  { clasificacion: Interno }
+      razon_social:                { clasificacion: Confidencial }
+      nit_cifrado:                 { clasificacion: Restringido-PII, fuente: nit }
+      nit_hash:                    { clasificacion: Interno, nota: "indice ciego HMAC-SHA256" }
+      email_cifrado:               { clasificacion: Restringido-PII, fuente: email_contacto }
+      celular_cifrado:             { clasificacion: Restringido-PII, fuente: celular_contacto }
+      direccion_cifrada:           { clasificacion: Restringido-PII, fuente: direccion }
+      ciudad:                      { clasificacion: Confidencial }
+      departamento:                { clasificacion: Confidencial }
+      representante_cifrado:       { clasificacion: Restringido-PII, fuente: representante_legal }
+      observaciones_enmascaradas:  { clasificacion: Confidencial, nota: "PII embebida enmascarada por src/pii.py" }
+
+  core.dim_frontera:
+    columnas:
+      frontera_id:    { clasificacion: Interno }
+      codigo_sic:     { clasificacion: Interno }
+      cliente_id:     { clasificacion: Interno }
+      mercado:        { clasificacion: Publico }
+      operador_red:   { clasificacion: Publico }
+      nivel_tension:  { clasificacion: Publico }
+      fecha_registro: { clasificacion: Interno }
+      estado:         { clasificacion: Interno }
+
+  core.limite_frontera:
+    columnas:
+      frontera_id: { clasificacion: Interno }
+      min_kwh:     { clasificacion: Interno }
+      max_kwh:     { clasificacion: Interno }
+
+  core.fact_consumo_horario:
+    columnas:
+      frontera_id:     { clasificacion: Interno }
+      ts:              { clasificacion: Interno }
+      consumo_kwh:     { clasificacion: Confidencial, nota: "base de facturacion" }
+      version_lectura: { clasificacion: Interno }
+      calidad_lectura: { clasificacion: Interno }
+      archivo_origen:  { clasificacion: Interno }
+
+  core.fact_factura:
+    columnas:
+      factura_id:            { clasificacion: Interno }
+      periodo:               { clasificacion: Interno }
+      frontera_id:           { clasificacion: Interno }
+      cliente_nit_cifrado:   { clasificacion: Restringido-PII }
+      cliente_nit_hash:      { clasificacion: Interno }
+      cliente_razon_social:  { clasificacion: Confidencial }
+      cliente_email_cifrado: { clasificacion: Restringido-PII }
+      consumo_facturado_kwh: { clasificacion: Confidencial }
+      tarifa_cop_kwh:        { clasificacion: Confidencial }
+      valor_total_cop:       { clasificacion: Confidencial }
+
+  stage.consumo_lectura:
+    columnas:
+      frontera_id:     { clasificacion: Interno }
+      ts:              { clasificacion: Interno }
+      consumo_kwh:     { clasificacion: Confidencial }
+      calidad_lectura: { clasificacion: Interno }
+
+  stage.cuarentena:
+    columnas:
+      fuente:           { clasificacion: Interno }
+      motivo:           { clasificacion: Interno }
+      payload:          { clasificacion: Restringido-PII, nota: "cifrado cuando la fuente puede traer PII" }
+      payload_cifrado:  { clasificacion: Interno }
+
+  audit.bitacora:
+    columnas:
+      corrida_id: { clasificacion: Interno }
+      usuario_db: { clasificacion: Interno }
+      etapa:      { clasificacion: Interno }
+      objeto:     { clasificacion: Interno }
+      detalle:    { clasificacion: Interno, nota: "NUNCA contiene PII" }

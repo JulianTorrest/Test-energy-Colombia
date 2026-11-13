@@ -1,0 +1,19 @@
+# Configuracion del pipeline. AUDITADA: se eliminaron todos los secretos
+# heredados del PoC (password Postgres en claro, llave "maestra" fake con
+# algoritmo: none, credenciales minioadmin, webhook Slack). Las credenciales
+# reales viven SOLO en .env (gitignored, generado por tools/ensure_env.py).
+pipeline:
+  nombre: ingesta_consumos
+  batch_size: 5000
+  reintentos: 3
+  tz_local: America/Bogota
+  outlier_kwh_max: 1000000.0   # regla B4: valor > 1.000.000 kWh se descarta
+
+origen:
+  dir_datos: data
+
+cifrado:
+  # La llave se lee de la variable de entorno PII_ENCRYPTION_KEY (hex, 64 chars).
+  # Nunca se persiste en este archivo.
+  algoritmo: AES-256-GCM
+  indice_ciego: HMAC-SHA256

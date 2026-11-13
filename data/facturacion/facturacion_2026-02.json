@@ -1,0 +1,1741 @@
+{
+ "periodo": "2026-02",
+ "emisor": {
+  "nombre": "Bia Energy S.A.S. E.S.P.",
+  "nit": "901.234.567-8"
+ },
+ "generado_en": "2026-02-05T08:00:00-05:00",
+ "facturas": [
+  {
+   "factura_id": "F-202602-0001",
+   "frontera_id": "CO5770577141",
+   "cliente": {
+    "nit": "867.446.522-3",
+    "razon_social": "Comercializadora Castro S.A.S.",
+    "email_facturacion": "lucia.nino@comercializadora.com.co"
+   },
+   "consumo_facturado_kwh": 32345.52,
+   "tarifa_cop_kwh": 462.69,
+   "valor_total_cop": 14965949.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 208.21
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 37.02
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 138.81
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 46.27
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 18.51
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 13.88
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****2272"
+   }
+  },
+  {
+   "factura_id": "F-202602-0002",
+   "frontera_id": "CO2327139357",
+   "cliente": {
+    "nit": "NIT 846661846-9",
+    "razon_social": "Manufacturas Gutiérrez S.A.S.",
+    "email_facturacion": "sebastian.beltran@manufacturas.com.co"
+   },
+   "consumo_facturado_kwh": 1004430.49,
+   "tarifa_cop_kwh": 552.13,
+   "valor_total_cop": 554576205.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 248.46
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 44.17
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 165.64
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 55.21
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 22.09
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 16.56
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****3380"
+   }
+  },
+  {
+   "factura_id": "F-202602-0003",
+   "frontera_id": "CO7967767083",
+   "cliente": {
+    "nit": "866901508-8",
+    "razon_social": "Cementos Andés S.A.S.",
+    "email_facturacion": "sebastian.beltran@cementos.com.co"
+   },
+   "consumo_facturado_kwh": 243323.95,
+   "tarifa_cop_kwh": 693.88,
+   "valor_total_cop": 168837620.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 312.25
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 55.51
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 208.16
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 69.39
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 27.76
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 20.82
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****6642"
+   }
+  },
+  {
+   "factura_id": "F-202602-0004",
+   "frontera_id": "CO1142203221",
+   "cliente": {
+    "nit": "895.901.695-2",
+    "razon_social": "Plasticos Jiménez S.A.S.",
+    "email_facturacion": "mauricio.zapata@plasticos.com.co"
+   },
+   "consumo_facturado_kwh": 1009054.83,
+   "tarifa_cop_kwh": 610.18,
+   "valor_total_cop": 615705076.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 274.58
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 48.81
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 183.05
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 61.02
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 24.41
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 18.31
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****5948"
+   }
+  },
+  {
+   "factura_id": "F-202602-0005",
+   "frontera_id": "CO9866080176",
+   "cliente": {
+    "nit": "8626335227",
+    "razon_social": "Alimentos Jiménez S.A.S.",
+    "email_facturacion": "sebastian.beltran@alimentos.com.co"
+   },
+   "consumo_facturado_kwh": 121195.37,
+   "tarifa_cop_kwh": 570.27,
+   "valor_total_cop": 69114083.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 256.62
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 45.62
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 171.08
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 57.03
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 22.81
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 17.11
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****7547"
+   }
+  },
+  {
+   "factura_id": "F-202602-0006",
+   "frontera_id": "CO2534379800",
+   "cliente": {
+    "nit": "8123706642",
+    "razon_social": "Plasticos Peñalosa S.A.S.",
+    "email_facturacion": "catalina.nino@plasticos.com.co"
+   },
+   "consumo_facturado_kwh": 32445.19,
+   "tarifa_cop_kwh": 557.36,
+   "valor_total_cop": 18083649.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 250.81
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 44.59
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 167.21
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 55.74
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 22.29
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 16.72
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****4363"
+   }
+  },
+  {
+   "factura_id": "F-202602-0007",
+   "frontera_id": "CO4465642504",
+   "cliente": {
+    "nit": "NIT 878911235-9",
+    "razon_social": "Textiles Jiménez S.A.S.",
+    "email_facturacion": "diana.beltran@textiles.com.co"
+   },
+   "consumo_facturado_kwh": 242130.27,
+   "tarifa_cop_kwh": 522.94,
+   "valor_total_cop": 126619604.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 235.32
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 41.84
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 156.88
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 52.29
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 20.92
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 15.69
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****5835"
+   }
+  },
+  {
+   "factura_id": "F-202602-0008",
+   "frontera_id": "CO6183963894",
+   "cliente": {
+    "nit": "803.461.507-2",
+    "razon_social": "Logistica Castro S.A.S.",
+    "email_facturacion": "mauricio.cardona@logistica.com.co"
+   },
+   "consumo_facturado_kwh": 482935.54,
+   "tarifa_cop_kwh": 710.83,
+   "valor_total_cop": 343285068.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 319.87
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 56.87
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 213.25
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 71.08
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 28.43
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 21.32
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****8203"
+   }
+  },
+  {
+   "factura_id": "F-202602-0009",
+   "frontera_id": "CO4626561827",
+   "cliente": {
+    "nit": "826.238.751-2",
+    "razon_social": "Manufacturas Peñalosa S.A.S.",
+    "email_facturacion": "carlos.beltran@manufacturas.com.co"
+   },
+   "consumo_facturado_kwh": 243795.2,
+   "tarifa_cop_kwh": 482.27,
+   "valor_total_cop": 117575112.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 217.02
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 38.58
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 144.68
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 48.23
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 19.29
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 14.47
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****2958"
+   }
+  },
+  {
+   "factura_id": "F-202602-0010",
+   "frontera_id": "CO8716819276",
+   "cliente": {
+    "nit": "NIT 846179753-6",
+    "razon_social": "Alimentos Bogotá S.A.S.",
+    "email_facturacion": "jorge.cardona@alimentos.com.co"
+   },
+   "consumo_facturado_kwh": 32293.74,
+   "tarifa_cop_kwh": 734.42,
+   "valor_total_cop": 23717166.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 330.49
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 58.75
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 220.33
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 73.44
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 29.38
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 22.03
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****2749"
+   }
+  },
+  {
+   "factura_id": "F-202602-0011",
+   "frontera_id": "CO4139494357",
+   "cliente": {
+    "nit": "8731567352",
+    "razon_social": "Logistica Ocaña S.A.S.",
+    "email_facturacion": "carlos.ospina@logistica.com.co"
+   },
+   "consumo_facturado_kwh": 480240.41,
+   "tarifa_cop_kwh": 636.45,
+   "valor_total_cop": 305649012.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 286.4
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 50.92
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 190.94
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 63.65
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 25.46
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 19.09
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****6757"
+   }
+  },
+  {
+   "factura_id": "F-202602-0012",
+   "frontera_id": "CO6415345180",
+   "cliente": {
+    "nit": "822988153-0",
+    "razon_social": "Comercializadora Ocaña S.A.S.",
+    "email_facturacion": "carlos.ospina@comercializadora.com.co"
+   },
+   "consumo_facturado_kwh": 31860.36,
+   "tarifa_cop_kwh": 589.52,
+   "valor_total_cop": 18782319.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 265.28
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 47.16
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 176.86
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 58.95
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 23.58
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 17.69
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****4922"
+   }
+  },
+  {
+   "factura_id": "F-202602-0013",
+   "frontera_id": "CO3610419498",
+   "cliente": {
+    "nit": "831571416-4",
+    "razon_social": "Comercializadora \"La Esquina\", S.A.S.\nSede principal, Bodega 3",
+    "email_facturacion": "jorge.rincon@industrias.com.co"
+   },
+   "consumo_facturado_kwh": 484822.1,
+   "tarifa_cop_kwh": 589.99,
+   "valor_total_cop": 286040192.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 265.5
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 47.2
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 177.0
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 59.0
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 23.6
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 17.7
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****5860"
+   }
+  },
+  {
+   "factura_id": "F-202602-0014",
+   "frontera_id": "CO3408887563",
+   "cliente": {
+    "nit": "839175656-6",
+    "razon_social": "Alimentos Ocaña S.A.S.",
+    "email_facturacion": "carlos.zapata@alimentos.com.co"
+   },
+   "consumo_facturado_kwh": 1011784.58,
+   "tarifa_cop_kwh": 574.86,
+   "valor_total_cop": 581634487.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 258.69
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 45.99
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 172.46
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 57.49
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 22.99
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 17.25
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****9302"
+   }
+  },
+  {
+   "factura_id": "F-202602-0015",
+   "frontera_id": "CO9711985204",
+   "cliente": {
+    "nit": "NIT 847518531-7",
+    "razon_social": "Agropecuaria Andés S.A.S.",
+    "email_facturacion": "carlos.zapata@agropecuaria.com.co"
+   },
+   "consumo_facturado_kwh": 1006718.7,
+   "tarifa_cop_kwh": 487.26,
+   "valor_total_cop": 490533756.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 219.27
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 38.98
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 146.18
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 48.73
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 19.49
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 14.62
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****4281"
+   }
+  },
+  {
+   "factura_id": "F-202602-0016",
+   "frontera_id": "CO8486523758",
+   "cliente": {
+    "nit": "802227450-6",
+    "razon_social": "Textiles Peñalosa S.A.S.",
+    "email_facturacion": "mauricio.cardona@textiles.com.co"
+   },
+   "consumo_facturado_kwh": 32385.44,
+   "tarifa_cop_kwh": 488.73,
+   "valor_total_cop": 15827738.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 219.93
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 39.1
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 146.62
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 48.87
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 19.55
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 14.66
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****8200"
+   }
+  },
+  {
+   "factura_id": "F-202602-0017",
+   "frontera_id": "CO7788538117",
+   "cliente": {
+    "nit": "NIT 820246318-8",
+    "razon_social": "Textiles Andés S.A.S.",
+    "email_facturacion": "paola.munoz@textiles.com.co"
+   },
+   "consumo_facturado_kwh": 60420.98,
+   "tarifa_cop_kwh": 547.89,
+   "valor_total_cop": 33104049.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 246.55
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 43.83
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 164.37
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 54.79
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 21.92
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 16.44
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****1372"
+   }
+  },
+  {
+   "factura_id": "F-202602-0018",
+   "frontera_id": "CO7796305882",
+   "cliente": {
+    "nit": "894267632-5",
+    "razon_social": "Logistica Andés S.A.S.",
+    "email_facturacion": "carlos.gutierrez@logistica.com.co"
+   },
+   "consumo_facturado_kwh": 484058.53,
+   "tarifa_cop_kwh": 534.1,
+   "valor_total_cop": 258535663.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 240.35
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 42.73
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 160.23
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 53.41
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 21.36
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 16.02
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****2087"
+   }
+  },
+  {
+   "factura_id": "F-202602-0019",
+   "frontera_id": "CO2669075354",
+   "cliente": {
+    "nit": "8190444669",
+    "razon_social": "Comercializadora Muñoz S.A.S.",
+    "email_facturacion": "paola.beltran@comercializadora.com.co"
+   },
+   "consumo_facturado_kwh": 1008289.33,
+   "tarifa_cop_kwh": 513.85,
+   "valor_total_cop": 518109472.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 231.23
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 41.11
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 154.16
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 51.39
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 20.55
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 15.42
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****7345"
+   }
+  },
+  {
+   "factura_id": "F-202602-0020",
+   "frontera_id": "CO6875500383",
+   "cliente": {
+    "nit": "896902540-8",
+    "razon_social": "Quimicos Bogotá S.A.S.",
+    "email_facturacion": "andres.ospina@quimicos.com.co"
+   },
+   "consumo_facturado_kwh": 60527.92,
+   "tarifa_cop_kwh": 553.97,
+   "valor_total_cop": 33530654.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 249.29
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 44.32
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 166.19
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 55.4
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 22.16
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 16.62
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****6357"
+   }
+  },
+  {
+   "factura_id": "F-202602-0021",
+   "frontera_id": "CO8796570265",
+   "cliente": {
+    "nit": "814.414.113-4",
+    "razon_social": "Logistica Jiménez S.A.S.",
+    "email_facturacion": "sebastian.velasquez@logistica.com.co"
+   },
+   "consumo_facturado_kwh": 486099.9,
+   "tarifa_cop_kwh": 521.94,
+   "valor_total_cop": 253714980.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 234.87
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 41.76
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 156.58
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 52.19
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 20.88
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 15.66
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****7572"
+   }
+  },
+  {
+   "factura_id": "F-202602-0022",
+   "frontera_id": "CO9245225103",
+   "cliente": {
+    "nit": "822.594.416-0",
+    "razon_social": "Alimentos Aragón S.A.S.",
+    "email_facturacion": "sebastian.beltran@alimentos.com.co"
+   },
+   "consumo_facturado_kwh": 120573.31,
+   "tarifa_cop_kwh": 610.22,
+   "valor_total_cop": 73576248.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 274.6
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 48.82
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 183.07
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 61.02
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 24.41
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 18.31
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****7996"
+   }
+  },
+  {
+   "factura_id": "F-202602-0023",
+   "frontera_id": "CO5824262765",
+   "cliente": {
+    "nit": "8881597479",
+    "razon_social": "Plasticos Valdés S.A.S.",
+    "email_facturacion": "sebastian.velasquez@plasticos.com.co"
+   },
+   "consumo_facturado_kwh": 121295.47,
+   "tarifa_cop_kwh": 752.51,
+   "valor_total_cop": 91276054.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 338.63
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 60.2
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 225.75
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 75.25
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 30.1
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 22.58
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****7004"
+   }
+  },
+  {
+   "factura_id": "F-202602-0024",
+   "frontera_id": "CO1742898281",
+   "cliente": {
+    "nit": "8904784390",
+    "razon_social": "Quimicos Castro S.A.S.",
+    "email_facturacion": "paola.rincon@quimicos.com.co"
+   },
+   "consumo_facturado_kwh": 121657.42,
+   "tarifa_cop_kwh": 768.97,
+   "valor_total_cop": 93550905.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 346.04
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 61.52
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 230.69
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 76.9
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 30.76
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 23.07
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****7434"
+   }
+  },
+  {
+   "factura_id": "F-202602-0025",
+   "frontera_id": "CO8001526225",
+   "cliente": {
+    "nit": "863.879.958-4",
+    "razon_social": "Cementos Ocaña S.A.S.",
+    "email_facturacion": "paola.pena@cementos.com.co"
+   },
+   "consumo_facturado_kwh": 32298.86,
+   "tarifa_cop_kwh": 586.58,
+   "valor_total_cop": 18945867.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 263.96
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 46.93
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 175.97
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 58.66
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 23.46
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 17.6
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****8276"
+   }
+  },
+  {
+   "factura_id": "F-202602-0026",
+   "frontera_id": "CO9328066924",
+   "cliente": {
+    "nit": "862.205.072-9",
+    "razon_social": "Logistica Aragón S.A.S.",
+    "email_facturacion": "diana.gutierrez@logistica.com.co"
+   },
+   "consumo_facturado_kwh": 32159.26,
+   "tarifa_cop_kwh": 764.75,
+   "valor_total_cop": 24593795.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 344.14
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 61.18
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 229.42
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 76.48
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 30.59
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 22.94
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****5186"
+   }
+  },
+  {
+   "factura_id": "F-202602-0027",
+   "frontera_id": "CO3001957318",
+   "cliente": {
+    "nit": "NIT 846628928-5",
+    "razon_social": "Logistica Castro S.A.S.",
+    "email_facturacion": "diana.cardona@logistica.com.co"
+   },
+   "consumo_facturado_kwh": 120783.56,
+   "tarifa_cop_kwh": 639.81,
+   "valor_total_cop": 77278528.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 287.91
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 51.18
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 191.94
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 63.98
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 25.59
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 19.19
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****7014"
+   }
+  },
+  {
+   "factura_id": "F-202602-0028",
+   "frontera_id": "CO2546528806",
+   "cliente": {
+    "nit": "NIT 855144515-1",
+    "razon_social": "Cementos Peñalosa S.A.S.",
+    "email_facturacion": "mauricio.beltran@cementos.com.co"
+   },
+   "consumo_facturado_kwh": 32228.57,
+   "tarifa_cop_kwh": 572.3,
+   "valor_total_cop": 18444412.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 257.53
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 45.78
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 171.69
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 57.23
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 22.89
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 17.17
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****1463"
+   }
+  },
+  {
+   "factura_id": "F-202602-0029",
+   "frontera_id": "CO3098450434",
+   "cliente": {
+    "nit": "884.629.829-7",
+    "razon_social": "Quimicos Ocaña S.A.S.",
+    "email_facturacion": "diana.munoz@quimicos.com.co"
+   },
+   "consumo_facturado_kwh": 482110.26,
+   "tarifa_cop_kwh": 473.62,
+   "valor_total_cop": 228337060.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 213.13
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 37.89
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 142.09
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 47.36
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 18.94
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 14.21
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****9868"
+   }
+  },
+  {
+   "factura_id": "F-202602-0030",
+   "frontera_id": "CO5892778146",
+   "cliente": {
+    "nit": "882575668-7",
+    "razon_social": "Manufacturas Andés S.A.S.",
+    "email_facturacion": "andres.nino@manufacturas.com.co"
+   },
+   "consumo_facturado_kwh": 485571.81,
+   "tarifa_cop_kwh": 672.76,
+   "valor_total_cop": 326673290.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 302.74
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 53.82
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 201.83
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 67.28
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 26.91
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 20.18
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****4779"
+   }
+  },
+  {
+   "factura_id": "F-202602-0031",
+   "frontera_id": "CO5467938517",
+   "cliente": {
+    "nit": "NIT 855555028-0",
+    "razon_social": "Agropecuaria Bogotá S.A.S.",
+    "email_facturacion": "mauricio.pena@agropecuaria.com.co"
+   },
+   "consumo_facturado_kwh": 32465.57,
+   "tarifa_cop_kwh": 692.65,
+   "valor_total_cop": 22487274.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 311.69
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 55.41
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 207.79
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 69.27
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 27.71
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 20.78
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****9394"
+   }
+  },
+  {
+   "factura_id": "F-202602-0032",
+   "frontera_id": "CO7112500925",
+   "cliente": {
+    "nit": "825.679.466-6",
+    "razon_social": "Agropecuaria Andés S.A.S.",
+    "email_facturacion": "sebastian.zapata@agropecuaria.com.co"
+   },
+   "consumo_facturado_kwh": 121694.51,
+   "tarifa_cop_kwh": 738.34,
+   "valor_total_cop": 89851924.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 332.25
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 59.07
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 221.5
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 73.83
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 29.53
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 22.15
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****3077"
+   }
+  },
+  {
+   "factura_id": "F-202602-0033",
+   "frontera_id": "CO6449160103",
+   "cliente": {
+    "nit": "815549507-6",
+    "razon_social": "Consorcio Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo Muy Largo RAZON-SOCIAL-LARGA-FIN",
+    "email_facturacion": "paola.nino@textiles.com.co"
+   },
+   "consumo_facturado_kwh": 1007613.09,
+   "tarifa_cop_kwh": 560.79,
+   "valor_total_cop": 565059345.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 252.36
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 44.86
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 168.24
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 56.08
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 22.43
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 16.82
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****1742"
+   }
+  },
+  {
+   "factura_id": "F-202602-0034",
+   "frontera_id": "CO5633530264",
+   "cliente": {
+    "nit": "8185149971",
+    "razon_social": "Logistica Jiménez S.A.S.",
+    "email_facturacion": "andres.beltran@logistica.com.co"
+   },
+   "consumo_facturado_kwh": 241977.82,
+   "tarifa_cop_kwh": 696.15,
+   "valor_total_cop": 168452859.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 313.27
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 55.69
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 208.84
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 69.61
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 27.85
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 20.88
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****6387"
+   }
+  },
+  {
+   "factura_id": "F-202602-0035",
+   "frontera_id": "CO1114174638",
+   "cliente": {
+    "nit": "879216444-4",
+    "razon_social": "Industrias Muñoz S.A.S.",
+    "email_facturacion": "maria.beltran@industrias.com.co"
+   },
+   "consumo_facturado_kwh": 242290.87,
+   "tarifa_cop_kwh": 435.82,
+   "valor_total_cop": 105595209.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 196.12
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 34.87
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 130.75
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 43.58
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 17.43
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 13.07
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****3544"
+   }
+  },
+  {
+   "factura_id": "F-202602-0036",
+   "frontera_id": "CO6086470442",
+   "cliente": {
+    "nit": "8699023474",
+    "razon_social": "Inversiones Robert'); DROP TABLE core.fact_consumo_horario;-- S.A.S.",
+    "email_facturacion": "paola.gutierrez@comercializadora.com.co"
+   },
+   "consumo_facturado_kwh": 59970.13,
+   "tarifa_cop_kwh": 597.34,
+   "valor_total_cop": 35822557.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 268.8
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 47.79
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 179.2
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 59.73
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 23.89
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 17.92
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****6527"
+   }
+  },
+  {
+   "factura_id": "F-202602-0037",
+   "frontera_id": "CO5407915255",
+   "cliente": {
+    "nit": "NIT 829335391-0",
+    "razon_social": "Industrias Jiménez S.A.S.",
+    "email_facturacion": "carlos.beltran@industrias.com.co"
+   },
+   "consumo_facturado_kwh": 479748.09,
+   "tarifa_cop_kwh": 537.53,
+   "valor_total_cop": 257878992.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 241.89
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 43.0
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 161.26
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 53.75
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 21.5
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 16.13
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "pse",
+    "cuenta_enmascarada": "****6613"
+   }
+  },
+  {
+   "factura_id": "F-202602-0038",
+   "frontera_id": "CO2607342382",
+   "cliente": {
+    "nit": "8744452670",
+    "razon_social": "Cementos Muñoz S.A.S.",
+    "email_facturacion": "catalina.zapata@cementos.com.co"
+   },
+   "consumo_facturado_kwh": 122039.88,
+   "tarifa_cop_kwh": 614.43,
+   "valor_total_cop": 74984965.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 276.49
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 49.15
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 184.33
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 61.44
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 24.58
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 18.43
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****1249"
+   }
+  },
+  {
+   "factura_id": "F-202602-0039",
+   "frontera_id": "CO2198822540",
+   "cliente": {
+    "nit": "860048482-4",
+    "razon_social": "Quimicos Muñoz S.A.S.",
+    "email_facturacion": "paola.cardona@quimicos.com.co"
+   },
+   "consumo_facturado_kwh": 32140.78,
+   "tarifa_cop_kwh": 672.49,
+   "valor_total_cop": 21614356.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 302.62
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 53.8
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 201.75
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 67.25
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 26.9
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 20.17
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****5315"
+   }
+  },
+  {
+   "factura_id": "F-202602-0040",
+   "frontera_id": "CO3387494318",
+   "cliente": {
+    "nit": "822494389-0",
+    "razon_social": "Comercializadora Andés S.A.S.",
+    "email_facturacion": "catalina.pena@comercializadora.com.co"
+   },
+   "consumo_facturado_kwh": 240827.41,
+   "tarifa_cop_kwh": 772.26,
+   "valor_total_cop": 185981374.0,
+   "componentes": [
+    {
+     "concepto": "G",
+     "valor_cop_kwh": 347.52
+    },
+    {
+     "concepto": "T",
+     "valor_cop_kwh": 61.78
+    },
+    {
+     "concepto": "D",
+     "valor_cop_kwh": 231.68
+    },
+    {
+     "concepto": "C",
+     "valor_cop_kwh": 77.23
+    },
+    {
+     "concepto": "P",
+     "valor_cop_kwh": 30.89
+    },
+    {
+     "concepto": "R",
+     "valor_cop_kwh": 23.17
+    }
+   ],
+   "metodo_pago": {
+    "tipo": "debito_automatico",
+    "cuenta_enmascarada": "****6951"
+   }
+  },
+  {
+   "factura_id": "F-202602-9004",
+   "frontera_id": "CO2676909952",
+   "cliente": {
+    "nit": "889.953.529-9",
+    "razon_social": "Comercializadora Sin Maestro S.A.S.",
+    "email_facturacion": "facturacion@sinmaestro.com.co"
+   },
+   "consumo_facturado_kwh": 7154.31,
+   "tarifa_cop_kwh": 600.0,
+   "valor_total_cop": 1234567,
+   "componentes": [],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****0000"
+   }
+  },
+  {
+   "factura_id": "F-202602-9005",
+   "frontera_id": "CO8729370514",
+   "cliente": {
+    "nit": "851.595.468-3",
+    "razon_social": "Comercializadora Sin Maestro S.A.S.",
+    "email_facturacion": "facturacion@sinmaestro.com.co"
+   },
+   "consumo_facturado_kwh": 29397.64,
+   "tarifa_cop_kwh": 600.0,
+   "valor_total_cop": 1234567,
+   "componentes": [],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****0000"
+   }
+  },
+  {
+   "factura_id": "F-202602-9006",
+   "frontera_id": "CO5895336356",
+   "cliente": {
+    "nit": "804.987.934-6",
+    "razon_social": "Comercializadora Sin Maestro S.A.S.",
+    "email_facturacion": "facturacion@sinmaestro.com.co"
+   },
+   "consumo_facturado_kwh": 6697.3,
+   "tarifa_cop_kwh": 600.0,
+   "valor_total_cop": 1234567,
+   "componentes": [],
+   "metodo_pago": {
+    "tipo": "transferencia",
+    "cuenta_enmascarada": "****0000"
+   }
+  }
+ ]
+}

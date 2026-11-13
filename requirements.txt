@@ -1,0 +1,15 @@
+# Dependencias de la solucion (auditadas, versiones fijadas).
+# Se eliminaron las heredadas con CVEs conocidos: requests 2.19.1,
+# PyYAML 5.3.1, urllib3 1.24.1, Jinja2 2.11.2 (ver SECURITY.md seccion 7).
+# pandas solo se usa en el front (Streamlit); el pipeline usa csv/json stdlib + SQL.
+psycopg2-binary==2.9.10
+PyYAML==6.0.2
+kafka-python==2.0.2
+cryptography==43.0.3
+python-dotenv==1.0.1
+pytest==8.3.3
+tzdata==2024.2        # necesario en Windows: zoneinfo no tiene tzdb del SO
+
+# Front (dashboard de analista) — no requerido por el pipeline batch/stream.
+streamlit==1.40.2
+pandas==2.2.3

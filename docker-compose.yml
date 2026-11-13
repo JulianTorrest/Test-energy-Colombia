@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------------------
+# Infraestructura local de la prueba tecnica.
+#
+# Procede de un PoC interno y NO ha pasado revision de seguridad.
+# Auditarlo y endurecerlo hace parte del alcance de la prueba.
+#
+# Podes modificar este archivo libremente (de hecho, se espera que lo hagas).
+# Lo unico que NO podes cambiar son los nombres de los targets del Makefile.
+# ---------------------------------------------------------------------------
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: bia_pg
+    environment:
+      POSTGRES_USER: ${PG_SUPERUSER}
+      POSTGRES_PASSWORD: ${PG_SUPERPASSWORD}
+      POSTGRES_DB: ${PG_DATABASE}
+    ports:
+      # El puerto host viene de .env (PG_PORT). Si hay un Postgres nativo
+      # de Windows escuchando en 5432, gana la conexion antes que el
+      # contenedor -> usar otro puerto host (p.ej. 5433).
+      - "${PG_PORT}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PG_SUPERUSER} -d ${PG_DATABASE}"]
+      interval: 3s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  # NOTA: se elimino el servicio MinIO heredado del PoC. La imagen
+  # minio/minio ya no se publica en Docker Hub y quay.io/minio exige auth;
+  # ademas MinIO no hace parte del flujo (origen = FS data/, destino =
+  # Postgres + Kafka). El equivalente cloud (S3 cifrado) esta en infra/.
+
+  redpanda:
+    image: redpandadata/redpanda:latest
+    container_name: bia_redpanda
+    command:
+      - redpanda start
+      - --overprovisioned
+      - --smp 1
+      - --memory 512M
+      - --reserve-memory 0M
+      - --node-id 0
+      - --check=false
+      - --kafka-addr PLAINTEXT://0.0.0.0:29092,OUTSIDE://0.0.0.0:9092
+      - --advertise-kafka-addr PLAINTEXT://redpanda:29092,OUTSIDE://localhost:9092
+    ports:
+      - "9092:9092"
+
+volumes:
+  pgdata:
+  miniodata:

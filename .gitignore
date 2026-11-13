@@ -1,0 +1,14 @@
+# Secretos y artefactos locales — nunca versionar
+.env
+*.pem
+secrets/
+__pycache__/
+*.pyc
+.venv/
+venv/
+out/
+logs/
+.pytest_cache/
+tmp_*.py
+requirements_new.txt
+.DS_Store

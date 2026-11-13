@@ -1,0 +1,27 @@
+candidato:
+  nombre_completo: Julian Torres
+  email: julik_100@hotmail.com
+  horas_invertidas: 0
+postgres:
+  host: 127.0.0.1
+  port: 55432
+  database: bia_datos
+  superusuario:
+    usuario: postgres
+    password: <generado_por_init_db>
+  roles:
+    ingesta:
+      usuario: rol_ingesta
+      password: <generado_por_init_db>
+    analista:
+      usuario: rol_analista
+      password: <generado_por_init_db>
+    auditor:
+      usuario: rol_auditor
+      password: <generado_por_init_db>
+objetos:
+  tabla_consumos: core.fact_consumo_horario
+  tabla_clientes: core.dim_cliente
+  vista_analytics: analytics.vw_consumo_analitico
+  tabla_auditoria: audit.bitacora
+no_implementado: []
