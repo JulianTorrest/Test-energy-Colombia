@@ -1,0 +1,44 @@
+{
+  "corrida_id": "1e41f0f8-8cc5-47f3-a23c-2c434036474b",
+  "inicio": "2026-11-12T03:59:49.715930+00:00",
+  "fin": "2026-11-12T03:59:56.402133+00:00",
+  "duracion_total_ms": 6686,
+  "filas_leidas": 292,
+  "filas_cargadas": 280,
+  "filas_rechazadas_por_motivo": {
+    "valor_negativo": 90,
+    "frontera_huerfana": 12,
+    "archivo_corrupto": 1,
+    "outlier": 45,
+    "valor_nulo": 60
+  },
+  "etapas": {
+    "maestros": {
+      "leidas": 120,
+      "cargadas": 120,
+      "rechazadas": 0,
+      "duracion_ms": 422
+    },
+    "consumos": {
+      "archivos": 6,
+      "procesados": 0,
+      "omitidos": 5,
+      "rechazados": 1,
+      "leidas": 0,
+      "cargadas": 0,
+      "rechazadas": 0,
+      "duracion_ms": 5271
+    },
+    "facturacion": {
+      "archivos": 4,
+      "leidas": 172,
+      "cargadas": 160,
+      "rechazadas": 12,
+      "duracion_ms": 478
+    },
+    "reportes": {
+      "duracion_ms": 184,
+      "filas_consumo_mensual": 160
+    }
+  }
+}

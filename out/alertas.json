@@ -1,0 +1,167 @@
+[
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO2198822540",
+    "ts": "2026-06-01T10:45:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO2198822540",
+    "ts": "2026-06-01T18:15:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO2546528806",
+    "ts": "2026-06-01T12:30:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO2546528806",
+    "ts": "2026-06-01T17:30:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO3408887563",
+    "ts": "2026-06-01T23:00:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO4626561827",
+    "ts": "2026-06-01T01:15:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO4626561827",
+    "ts": "2026-06-01T18:00:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO4626561827",
+    "ts": "2026-06-01T23:15:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO5407915255",
+    "ts": "2026-06-01T07:00:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO5633530264",
+    "ts": "2026-06-01T15:00:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO5633530264",
+    "ts": "2026-06-01T20:15:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO5633530264",
+    "ts": "2026-06-01T22:45:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO6086470442",
+    "ts": "2026-06-01T01:30:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO6086470442",
+    "ts": "2026-06-01T08:30:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO6086470442",
+    "ts": "2026-06-01T12:45:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO6449160103",
+    "ts": "2026-06-01T06:45:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO7796305882",
+    "ts": "2026-06-01T02:00:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO7796305882",
+    "ts": "2026-06-01T02:45:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO7796305882",
+    "ts": "2026-06-01T12:15:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO8716819276",
+    "ts": "2026-06-01T02:00:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO8716819276",
+    "ts": "2026-06-01T06:00:00-05:00"
+  },
+  {
+    "tipo": "CONSUMO_FUERA_DE_BANDA",
+    "frontera_id": "CO8716819276",
+    "ts": "2026-06-01T22:30:00-05:00"
+  },
+  {
+    "tipo": "FRONTERA_SIN_REPORTE",
+    "frontera_id": "CO1114174638",
+    "ts": "2026-06-01T16:30:00-05:00"
+  },
+  {
+    "tipo": "FRONTERA_SIN_REPORTE",
+    "frontera_id": "CO3610419498",
+    "ts": "2026-06-01T08:45:00-05:00"
+  },
+  {
+    "tipo": "FRONTERA_SIN_REPORTE",
+    "frontera_id": "CO4139494357",
+    "ts": "2026-06-01T09:00:00-05:00"
+  },
+  {
+    "tipo": "FRONTERA_SIN_REPORTE",
+    "frontera_id": "CO7112500925",
+    "ts": "2026-06-01T16:30:00-05:00"
+  },
+  {
+    "tipo": "FRONTERA_SIN_REPORTE",
+    "frontera_id": "CO8486523758",
+    "ts": "2026-06-01T16:45:00-05:00"
+  },
+  {
+    "tipo": "FRONTERA_SIN_REPORTE",
+    "frontera_id": "CO8716819276",
+    "ts": "2026-06-01T07:15:00-05:00"
+  },
+  {
+    "tipo": "LECTURA_RETROACTIVA",
+    "frontera_id": "CO2327139357",
+    "ts": "2026-06-01T13:15:00-05:00"
+  },
+  {
+    "tipo": "LECTURA_RETROACTIVA",
+    "frontera_id": "CO2534379800",
+    "ts": "2026-06-01T07:15:00-05:00"
+  },
+  {
+    "tipo": "LECTURA_RETROACTIVA",
+    "frontera_id": "CO6415345180",
+    "ts": "2026-06-01T14:00:00-05:00"
+  },
+  {
+    "tipo": "LECTURA_RETROACTIVA",
+    "frontera_id": "CO7967767083",
+    "ts": "2026-06-01T10:45:00-05:00"
+  },
+  {
+    "tipo": "LECTURA_RETROACTIVA",
+    "frontera_id": "CO9711985204",
+    "ts": "2026-06-01T18:00:00-05:00"
+  }
+]

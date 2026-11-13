@@ -6,7 +6,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-out/
 logs/
 .pytest_cache/
 tmp_*.py

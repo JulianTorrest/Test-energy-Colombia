@@ -300,7 +300,16 @@ with tab_cartera:
     elif en_linea:
         st.warning("El filtro actual no devuelve lecturas.")
     else:
-        st.warning("Sin conexión a la base: corre `make up && make run`.")
+        cm = cargar_out("consumo_mensual.csv")
+        if cm is not None:
+            st.subheader("Energía por frontera (consumo_mensual.csv)")
+            st.caption("Modo offline: sin la vista no hay desglose por "
+                       "cliente/mercado — solo por frontera.")
+            por_frt = (cm.groupby("frontera_id")["consumo_kwh"].sum()
+                       .nlargest(15).round(1))
+            st.bar_chart(por_frt, horizontal=True)
+        else:
+            st.warning("Sin conexión a la base: corre `make up && make run`.")
 
 # ---------------------------------------------------------------------------
 with tab_dq:

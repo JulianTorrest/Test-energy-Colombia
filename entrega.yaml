@@ -1,7 +1,7 @@
 candidato:
   nombre_completo: Julian Torres
   email: julik_100@hotmail.com
-  horas_invertidas: 0
+  horas_invertidas: 5
 postgres:
   host: 127.0.0.1
   port: 55432

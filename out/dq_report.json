@@ -1,0 +1,14 @@
+{
+  "filas_leidas": 115340,
+  "duplicados_exactos": 180,
+  "duplicados_conflictivos": 420,
+  "registros_negativos": 90,
+  "registros_nulos": 60,
+  "registros_outlier": 45,
+  "registros_mwh_convertidos": 400,
+  "correcciones_tardias_aplicadas": 300,
+  "horas_sin_lectura_valida_total": 0,
+  "horas_sin_lectura_valida_por_frontera": {},
+  "fronteras_huerfanas_facturacion": 12,
+  "clientes_con_pii_en_texto_libre": 25
+}
